@@ -1,1 +1,15 @@
-venv
+###################
+# ludwig specific #
+###################
+
+results/
+ludwig/results/
+results_*/
+
+# dotenv
+.env
+
+# virtualenv
+.venv
+venv/
+ENV/
