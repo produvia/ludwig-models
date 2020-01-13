@@ -8,8 +8,6 @@ To learn more about text classification, visit [Ludwig](https://uber.github.io/l
 
 ### Dataset
 
-[Website](http://boston.lti.cs.cmu.edu/classes/95-865-K/HW/HW2/)
-
 Reuters-21578 is a well-known newswire dataset. It contains 21,578 newswire documents, so it is now considered too small for serious research and development purposes. However, the text and categories are similar to text and categories used in industry.
 
 There are many Reuters categories. In this assignment you will consider 6 categories. Two are 'big' categories (many positive documents), two are 'medium' categories, and two are 'small' categories (few positive documents).
@@ -75,8 +73,6 @@ $ ludwig experiment \
 ## OHSUMED
 
 ### Dataset
-
-[Website](http://boston.lti.cs.cmu.edu/classes/95-865-K/HW/HW2/)
 
 OHSUMED is a well-known medical abstracts dataset. It contains 348,566 references, and is still used for research and development.
 
