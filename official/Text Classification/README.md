@@ -65,7 +65,7 @@ $ ludwig experiment \
 #### ohsumed-allcats.csv
 
 | class | text |
-| --- | --- |
+| - | - |
 | Neg- | Laparoscopic treatment of perforated peptic ul... |
 | Neg- | Experimental sympathetic activation causes end... |
 | Pos-Hyperplasia | Myocyte cell loss and myocyte cellular hyperpl... |
@@ -92,7 +92,7 @@ output_features:
 
 ```shell
 $ ludwig train \
-  --data_csv text_classification.csv \
+  --data_csv ohsumed-allcats.csv \
   --model_definition_file model_definition.yaml
 ```
 
@@ -100,7 +100,7 @@ $ ludwig train \
 
 ```shell
 $ ludwig predict \
-  --data_csv text_classification.csv \
+  --data_csv ohsumed-allcats.csv \
   --model_path results/experiment_run/model/
 ```
 
@@ -108,7 +108,7 @@ $ ludwig predict \
 
 ```shell
 $ ludwig experiment \
-  --data_csv text_classification.csv \
+  --data_csv ohsumed-allcats.csv \
   --model_definition_file model_definition.yaml
 ```
 
