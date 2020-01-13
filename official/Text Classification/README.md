@@ -2,7 +2,7 @@
 
 Text classification is the task of assigning a sentence or document an appropriate category. The categories depend on the chosen dataset and can range from topics. 
 
-To learn more about text classification, visit [Ludwig](https://uber.github.io/ludwig/examples/#text-classification) or [Papers With Code](Papers With Code). 
+To learn more about text classification, visit [Ludwig](https://uber.github.io/ludwig/examples/#text-classification) or [Papers With Code](https://paperswithcode.com/task/text-classification). 
 
 ## Reuters-21578
 
