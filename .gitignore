@@ -13,3 +13,6 @@ results_*/
 .venv
 venv/
 ENV/
+
+# jupyter notebook
+.ipynb_checkpoints
